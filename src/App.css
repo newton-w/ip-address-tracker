@@ -60,6 +60,7 @@ form {
   height: 58px;
   display: grid;
   grid-template-columns: 6fr 1fr;
+  transition: all 0.3s ease-in-out;
 }
 form input[type="submit"] {
   height: 100%;
@@ -112,6 +113,7 @@ form .btn:hover {
   justify-content: center;
   align-items: center;
   gap: 31px;
+  transition: all 0.3s ease-in-out;
 }
 .card .box {
   display: flex;
@@ -119,6 +121,7 @@ form .btn:hover {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  transition: all 0.3s ease-in-out;
 }
 .card h2 {
   font-size: 12px;
